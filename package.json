@@ -1,0 +1,17 @@
+{
+  "name": "crud-mean",
+  "version": "1.0.0",
+  "description": "CRUD app in express js and node js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gekif",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.7",
+    "morgan": "^1.9.1"
+  }
+}

@@ -3,7 +3,7 @@ const herosSchema = require('./heros.model');
 
 herosSchema.statics = {
     create: function (data, cb) {
-        var hero = new this(data);
+        let hero = new this(data);
         hero.save(cb);
     },
 
